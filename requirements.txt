@@ -1,7 +1,7 @@
 python-dotenv
 graq
 llama-index
-steamlit
+streamlit
 nltk
 langchain-groq
 langchain_community
