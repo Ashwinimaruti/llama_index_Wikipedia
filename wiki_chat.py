@@ -84,6 +84,4 @@ if url:
                     response = query_engine.query(prompt)
                     st.write(response.response)
                     st.session_state.messages.append({"role": "assistant", "content": response.response})
-Express yourself with emojis
-💖 👍 😂 🎉
-Respond quickly and add fun and personality to your emails
+
