@@ -83,5 +83,5 @@ if url:
                 with st.spinner("Retrieving relevant information..."):
                     response = query_engine.query(prompt)
                     st.write(response.response)
-                    st.session_state.messages.append({"role": "assistant", "content": response.response})
+                    st.session_state.messages.append({"role": "assistant", "content": response.response})  
 
